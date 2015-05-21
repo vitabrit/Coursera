@@ -68,7 +68,6 @@ str(mergedData)
 # Create a vector with the features that are mean or SD plus subject and activity IDs.
 
 keepCols <- c(featuresMeanSD, 562, 563)
-
 finalData <- mergedData[,keepCols]
 dim(finalData)
 
